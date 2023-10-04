@@ -1,0 +1,45 @@
+body
+{
+   background-color: rgba(250, 73, 73, 0.714);
+   text-align: center;
+}
+#text
+{
+   font-size: 100px;
+   background-image: conic-gradient(rgba(255, 0, 0, 0.387),rgba(255, 255, 0, 0.429),rgba(0, 0, 255, 0.419),rgba(0, 0, 0, 0.339));
+   
+   font-weight: 100;
+
+}
+h1{
+   font-size: 100px;
+}
+.but
+{
+   margin:100px;
+}
+.b1{
+   font-size: 30px;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+   border-radius: 0.5cm;
+   padding: 10px 20px;
+}
+.ness
+ {
+    top: 100%;
+    font-size: 30px;
+    color: rgb(5, 29, 1);
+    margin-left: 1020px;
+    /* margin: 20px 0px 500px 0px; */
+}
+#i2
+{
+    margin-left: 30px;
+    color:rgba(2, 9, 3, 0.939);
+}
+#i1
+{
+    color: rgb(7, 32, 5);
+}

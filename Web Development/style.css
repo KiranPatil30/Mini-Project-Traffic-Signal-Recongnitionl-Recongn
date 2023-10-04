@@ -1,0 +1,123 @@
+body{
+    height: 100vh;
+    text-align: center;
+    background:linear-gradient(rgba(4,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.shutterstock.com/image-vector/seamless-pattern-cartoon-american-road-600w-322317014.jpg") ;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+form{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#fileToUpload{
+    font-size: 30px;
+    margin: 20px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    /* background-image: url("https://img.freepik.com/premium-vector/different-road-signs-icons-set-flat-style_96318-1938.jpg"); */
+    color:black ;
+    font-weight: 200;
+    filter:brightness(50);
+
+}
+
+#text{
+    font-size: 20px;
+}
+
+#submit-btn{
+    border: 0;
+    font: 2em Verdana;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#submit-btn
+{
+    background-color: red;
+    color: white  ;
+}
+#submit-btn:hover{
+    cursor: pointer;
+  
+}
+.slides
+{ 
+    text-align: center;
+    margin: 0px 0px 10px 620px;
+}
+.image-preview-container {
+    width: 50%;
+    margin: 40px auto;
+    border: 1px solid black;
+    padding: 3rem;
+    border-radius: 20px;
+    /* background-image: url("https://th.bing.com/th/id/R.9c58689a71234df86948b7a86570ddd5?rik=etaBCsnC6uew8w&riu=http%3a%2f%2fwallpaperswide.com%2fdownload%2fawesome_background-wallpaper-2048x1152.jpg&ehk=2aY2VJfNkbIaQ8DOHxO5%2fVVKyBM60k96iOchk8fCiFI%3d&risl=&pid=ImgRaw&r=0");  */
+    /* filter: blur(1px);  */
+    /* background-image: url("giphy.gif"); */
+    background-color: #e9656bf4;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.image-preview-container img {
+    width: 100%;
+    display: none;
+    margin-bottom: 30px;
+}
+
+h1{
+     /* margin: 0px 0px 20px 0px;  */
+    text-align: center;
+    font: 2em Verdana;
+    padding: 40px;
+    color: rgb(0, 0, 255);
+    background:linear-gradient(rgba(255,165,0,0.5),rgba(255,255,255,0.5),rgba(0,100,0,0.5)) ;
+    opacity: 3;
+}
+.b1{
+    font-size: 30px;
+    background-color: black;
+    color:gold;
+    cursor: pointer;
+    margin: 30px 0px 20px 50px;
+    border-radius: 0.5cm;
+    padding: 10px 20px;
+ }
+ .ness
+ {
+    top: 100%;
+    font-size: 30px;
+    color: white;
+    margin-left: 1020px;
+    margin: top 2px; ;
+    /* margin: 20px 0px 500px 0px; */
+}
+#i2
+{
+    margin-left: 30px;
+    color:rgb(14, 4, 4);
+}
+#i1
+{
+    color: rgb(21, 1, 1);
+}
+.px-wide
+{
+    width: 300px;
+    margin: 20px 500px 0px 600px;
+}

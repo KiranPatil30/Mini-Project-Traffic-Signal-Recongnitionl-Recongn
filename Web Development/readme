@@ -1,0 +1,9 @@
+This is the web development part. 
+
+Process to run : 
+
+1. Start the Xampp server 
+2. Upload the image of the traffic sign
+3. Run the last block of the jupyter source file
+4. The result gets updated on the get_text.html document 
+5. Refresh the get_text.html page to render the result

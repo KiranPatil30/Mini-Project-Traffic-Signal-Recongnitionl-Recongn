@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Text File Contents</title>
+    <link rel="stylesheet" href="style_getText.css">
+  </head>
+  <body>
+    <div class="ness">
+      <a href="home.html" id="i1">Home</a>
+  </div>
+    <h1>Result</h1>
+    <div id="text">
+      <script>
+      // create a new XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
+      
+      // open the file
+      xhr.open('GET', "result.txt", true);
+
+      // set the response type to text
+      xhr.responseType = 'text';
+
+      // handle the response
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          // display the file contents on the web page
+          document.getElementById('text').innerHTML = xhr.response;
+        } else {
+          console.log('Error loading text file.');
+        }
+      };
+
+      // send the request
+      xhr.send();
+      </script>
+    </div>
+    <div class="but">
+      <a href="index.html">
+        <button class="b1">Go Back</button>
+      </a>
+    </div>
+  </body>
+</html>

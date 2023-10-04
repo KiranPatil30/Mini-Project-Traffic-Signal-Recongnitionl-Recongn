@@ -1,0 +1,61 @@
+body,html
+{
+    text-align: center;
+    height: 100%;
+}
+.bg{
+    
+    background-image:url("https://bedrockinfra.com/wp-content/uploads/2021/08/importance-of-traffic-signs-in-road-safety-1.png") ;
+    filter: blur(2px);
+    -webkit-filter:blur(8px) ;
+
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-color: rgba(0, 0, 0, 0.157); */
+}
+.head {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+.b1{
+    font-size: 30px;
+    background-color: rgba(213, 13, 13, 0.53);
+    color: white;
+    cursor: pointer;
+ }
+ h1
+ {
+    font-size: 100px;
+ }
+ .ness
+ {
+    top: 100%;
+    font-size: 30px;
+    color: white;
+    margin-left: 1020px;
+    /* margin: 20px 0px 500px 0px; */
+}
+#i2
+{
+    margin-left: 30px;
+    color:red;
+}
+#i1
+{
+    color: red;
+}
